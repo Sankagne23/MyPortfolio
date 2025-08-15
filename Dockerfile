@@ -1,5 +1,6 @@
 FROM alpine:latest
 RUN apk add --no-cache python3 py3-pip
+RUN apk add py3-flask
 #RUN mkdir /app
 WORKDIR /app
 COPY . /app
